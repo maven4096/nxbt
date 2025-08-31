@@ -74,7 +74,8 @@ if __name__ == "__main__":
             nxbt.PRO_CONTROLLER,
             adapter_path=adapters[i],
             colour_body=random_colour(),
-            colour_buttons=random_colour())
+            colour_buttons=random_colour(),
+            reconnect_address="78:20:A5:8B:3A:EE")
         controller_idxs.append(index)
 
     # Select the last controller for input
